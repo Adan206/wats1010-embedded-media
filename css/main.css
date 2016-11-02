@@ -5,6 +5,72 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
- }
+ 
+
+html {
+  padding: 0;
+}
+body {
+  margin: 0;
+}
+
+header {
+  min-height: 400px;
+  background-image: url('../img/monkaa_title.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ 
+}
+
+#watch video {
+  width: 100%;
+  height: auto;
+}
+#social {
+  background: greenyellow;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  width: 25px;
+  transition: 2s width;
+}
+#social:hover {
+  width: 250px;
+  
+}
+
+.lead p {
+  font-family: sans-serif;
+
+}
+
+#social ul {
+  list-style-type: none;
+  padding: 0;
+}
+#social li {
+  padding: 0;
+  margin: 0;
+}
+
+ul.weybec-people img {
+  width: 20%;
+  height: auto;
+  
+}
+
+ul.weybec-people {
+  list-style: none;
+  background: grey;
+}
+
+footer {
+  min-height: 400px;
+  background-image: url('../img/monkey_crystal_tail.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+ 
+  
+}
